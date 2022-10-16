@@ -4,3 +4,21 @@ header {
   flex-direction: column;
   align-items: center;
 }
+#main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+#left,
+#right {
+  width: 45%;
+}
+#left {
+  padding: 10px 150px;
+}
+a {
+  width: 100%;
+}
+#right {
+  display: flex;
+}
